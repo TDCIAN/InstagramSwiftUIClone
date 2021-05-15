@@ -11,6 +11,12 @@
 		1855E245264FF3E500EA98DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1855E244264FF3E500EA98DE /* Assets.xcassets */; };
 		1855E248264FF3E500EA98DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1855E247264FF3E500EA98DE /* Preview Assets.xcassets */; };
 		1855E258264FF55800EA98DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855E257264FF55800EA98DE /* ContentView.swift */; };
+		1855E267264FF6AD00EA98DE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855E266264FF6AD00EA98DE /* MainTabView.swift */; };
+		1855E26B264FF6F200EA98DE /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855E26A264FF6F200EA98DE /* FeedView.swift */; };
+		1855E26E264FF71E00EA98DE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855E26D264FF71E00EA98DE /* SearchView.swift */; };
+		1855E271264FF72800EA98DE /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855E270264FF72800EA98DE /* NotificationsView.swift */; };
+		1855E274264FF73000EA98DE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855E273264FF73000EA98DE /* ProfileView.swift */; };
+		1855E277264FF73A00EA98DE /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855E276264FF73A00EA98DE /* UploadPostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		1855E247264FF3E500EA98DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1855E249264FF3E500EA98DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1855E257264FF55800EA98DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1855E266264FF6AD00EA98DE /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1855E26A264FF6F200EA98DE /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		1855E26D264FF71E00EA98DE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		1855E270264FF72800EA98DE /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		1855E273264FF73000EA98DE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1855E276264FF73A00EA98DE /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				1855E257264FF55800EA98DE /* ContentView.swift */,
+				1855E266264FF6AD00EA98DE /* MainTabView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -132,6 +145,7 @@
 		1855E25A264FF57700EA98DE /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				1855E276264FF73A00EA98DE /* UploadPostView.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -139,6 +153,7 @@
 		1855E25B264FF58000EA98DE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				1855E273264FF73000EA98DE /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -146,6 +161,7 @@
 		1855E25C264FF58500EA98DE /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				1855E26A264FF6F200EA98DE /* FeedView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -160,6 +176,7 @@
 		1855E25E264FF58F00EA98DE /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				1855E26D264FF71E00EA98DE /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -167,6 +184,7 @@
 		1855E25F264FF59400EA98DE /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				1855E270264FF72800EA98DE /* NotificationsView.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -282,8 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1855E26E264FF71E00EA98DE /* SearchView.swift in Sources */,
+				1855E26B264FF6F200EA98DE /* FeedView.swift in Sources */,
 				1855E258264FF55800EA98DE /* ContentView.swift in Sources */,
 				1855E241264FF3E400EA98DE /* InstagramSwiftUIApp.swift in Sources */,
+				1855E267264FF6AD00EA98DE /* MainTabView.swift in Sources */,
+				1855E277264FF73A00EA98DE /* UploadPostView.swift in Sources */,
+				1855E274264FF73000EA98DE /* ProfileView.swift in Sources */,
+				1855E271264FF72800EA98DE /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

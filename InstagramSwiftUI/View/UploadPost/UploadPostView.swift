@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  UploadPostView.swift
 //  InstagramSwiftUI
 //
 //  Created by APPLE on 2021/05/15.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct UploadPostView: View {
     var body: some View {
-        MainTabView()
+        Text("Upload Post")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct UploadPostView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        UploadPostView()
     }
 }
