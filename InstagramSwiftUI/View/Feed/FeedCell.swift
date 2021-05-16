@@ -24,8 +24,42 @@ struct FeedCell: View {
             }
             
             // post image
+            Image(systemName: "house")
+                .resizable()
+                .scaledToFill()
+                .frame(maxHeight: 440)
+                .clipped()
             
             // action buttons
+            HStack(spacing: 8) {
+                Button(action: {}, label: {
+                    Image(systemName: "heart")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 28, height: 28)
+                        .font(.system(size:20))
+                        .clipped()
+                        .padding(4)
+                })
+                Button(action: {}, label: {
+                    Image(systemName: "bubble.right")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 28, height: 28)
+                        .font(.system(size:20))
+                        .clipped()
+                        .padding(4)
+                })
+                Button(action: {}, label: {
+                    Image(systemName: "paperplane")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 28, height: 28)
+                        .font(.system(size:20))
+                        .clipped()
+                        .padding(4)
+                })
+            }
             
             // caption
         }
